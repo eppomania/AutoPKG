@@ -1,4 +1,5 @@
 # AutoPKG
-AutoPKG recipe's for our Own Apps
 
-De eerste app is Teamviewer van Pro Warehouse.nl
+Use of these recipes is entirely at your own risk and for testing purposes.
+Recipes can be added or removed without notice in advance or afterwards.
+
