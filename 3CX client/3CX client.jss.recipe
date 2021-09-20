@@ -28,7 +28,7 @@
 	<key>MinimumVersion</key>
 	<string>1.0.0</string>
 	<key>ParentRecipe</key>
-	<string>com.github.EppoMania/AutoPKG.pkg.3CXclient</string>
+	<string>com.github.EppoMania.AutoPKG.pkg.3CXclient</string>
 	<key>Process</key>
 	<array>
 		<dict>
