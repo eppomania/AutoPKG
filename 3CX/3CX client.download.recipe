@@ -2,10 +2,6 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
-	<key>Comment</key>
-	<string>Created with Recipe Robot v2.2.0 (https://github.com/homebysix/recipe-robot)</string>
-	<key>Description</key>
-	<string>Downloads the latest version of 3CX client.</string>
 	<key>Identifier</key>
 	<string>com.github.EppoMania.AutoPKG.download.3CXclient</string>
 	<key>Input</key>
@@ -22,10 +18,10 @@
 		<dict>
 			<key>Arguments</key>
 			<dict>
-				<key>filename</key>
-				<string>%NAME%.dmg</string>
-				<key>url</key>
-				<string>https://downloads.3cx.com/downloads/3CXPhoneforMac16.dmg</string>
+				<key>VERSION</key>
+				<string>16</string>
+				<key>DOWNLOAD_LINK</key>
+				<string>https://downloads.3cx.com/downloads/3CXPhoneforMac%VERSION%.dmg</string>
 			</dict>
 			<key>Processor</key>
 			<string>URLDownloader</string>
