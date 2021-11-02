@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>Identifier</key>
-	<string>com.github.EppoMania.AutoPKG.jss.Mendeley</string>
+	<string>com.github.EppoMania.AutoPKG.jss.DinoXcope</string>
 	<key>Input</key>
 	<dict>
 		<key>CATEGORY</key>
@@ -13,20 +13,20 @@
 		<key>GROUP_TEMPLATE</key>
 		<string>SmartGroupTemplate.xml</string>
 		<key>NAME</key>
-		<string>Mendeley Desktop</string>
+		<string>DinoXcope</string>
 		<key>POLICY_CATEGORY</key>
 		<string>Testing</string>
 		<key>POLICY_TEMPLATE</key>
 		<string>PolicyTemplate.xml</string>
 		<key>SELF_SERVICE_DESCRIPTION</key>
-		<string>Academic software for organizing, sharing, and generating bibliographies for research papers.</string>
+		<string></string>
 		<key>SELF_SERVICE_ICON</key>
 		<string>%NAME%.png</string>
 	</dict>
 	<key>MinimumVersion</key>
 	<string>1.0.0</string>
 	<key>ParentRecipe</key>
-	<string>com.github.hansen-m.pkg.Mendeley</string>
+	<string>com.github.EppoMania.AutoPKG.pkg.DinoXcope</string>
 	<key>Process</key>
 	<array>
 		<dict>
