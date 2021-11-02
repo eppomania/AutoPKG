@@ -26,7 +26,7 @@
 	<key>MinimumVersion</key>
 	<string>1.0.0</string>
 	<key>ParentRecipe</key>
-	<string>com.github.EppoMania.AutoPKG.pkg.RICOHTHETA</string>
+	<string>com.github.moofit-recipes.pkg.RicohThetaSC</string>
 	<key>Process</key>
 	<array>
 		<dict>
