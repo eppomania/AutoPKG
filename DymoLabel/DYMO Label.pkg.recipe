@@ -12,7 +12,7 @@
 	<key>MinimumVersion</key>
 	<string>1.0.0</string>
 	<key>ParentRecipe</key>
-	<string>com.github.joshua-d-miller.download.dymolabel</string>
+	<string>com.github.EppoMania.AutoPKG.download.DYMOLabel</string>
 	<key>Process</key>
 	<array>
 		<dict>
