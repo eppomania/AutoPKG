@@ -28,7 +28,7 @@
 	<key>MinimumVersion</key>
 	<string>1.0.0</string>
 	<key>ParentRecipe</key>
-	<string>com.github.EppoMania.AutoPKG.pkg.MaxonCinema4D</string>
+	<string>com.github.foigus.pkg.Cinema4D</string>
 	<key>Process</key>
 	<array>
 		<dict>
