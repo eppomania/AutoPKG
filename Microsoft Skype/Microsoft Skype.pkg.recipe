@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
     <key>Identifier</key>
-    <string>com.github.EppoMania.AutoPKG.pkg.Skype</string>
+    <string>com.github.EppoMania.AutoPKG.pkg.MicrosoftSkype</string>
     <key>Input</key>
     <dict>
         <key>NAME</key>
