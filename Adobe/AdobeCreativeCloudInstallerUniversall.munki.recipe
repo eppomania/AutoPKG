@@ -10,7 +10,7 @@
       <key>MUNKI_REPO_SUBDIR</key>
       <string>Adobe_CCU</string>
       <key>NAME</key>
-      <string>Creative Cloud Installer</string>
+      <string>Creative Cloud Installer Universall</string>
       <key>pkginfo</key>
       <dict>
         <key>catalogs</key>
