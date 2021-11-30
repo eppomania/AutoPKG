@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>Identifier</key>
-	<string>com.github.EppoMania.AutoPKG.jss.TeamViewerQSLocal</string>
+	<string>com.github.EppoMania.AutoPKG.jss.TeamViewerQS.LOC</string>
 	<key>Input</key>
 	<dict>
 		<key>CATEGORY</key>
@@ -12,8 +12,6 @@
 		<string>%NAME%-update-smart</string>
 		<key>GROUP_TEMPLATE</key>
 		<string>SmartGroupTemplate.xml</string>
-		<key>NAME</key>
-		<string>TeamViewer Host</string>
 		<key>POLICY_CATEGORY</key>
 		<string>Testing</string>
 		<key>POLICY_TEMPLATE</key>
@@ -21,14 +19,14 @@
 		<key>NAME</key>
 		<string>TeamViewer QuickSupport</string>
 		<key>SELF_SERVICE_DESCRIPTION</key>
-		<string>Install the latest version of %NAME%.</string>
+		<string>Install the latest version of TeamViewer QuickSupport.</string>
 		<key>SELF_SERVICE_ICON</key>
 		<string>TeamViewerQS.png</string>
 	</dict>
 	<key>MinimumVersion</key>
 	<string>0.4.0</string>
 	<key>ParentRecipe</key>
-	<string>com.github.EppoMania.AutoPKG.pkg.TeamViewerQSLocal</string>
+	<string>com.github.EppoMania.AutoPKG.pkg.TeamViewerQS.LOC</string>
 	<key>Process</key>
 	<array>
 		<dict>
