@@ -22,7 +22,7 @@
 				<string>%RECIPE_CACHE_DIR%/%NAME%</string>
 				<key>sourcelist</key>
 				<array>
-					<string>/Applications/%NAME%</string>
+					<string>/Applications/TeamViewerQS.app</string>
 				</array>
 			</dict>
 			<key>Processor</key>
