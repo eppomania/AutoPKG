@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Identifier</key>
+	<string>com.github.EppoMania.AutoPKG.pkg.TeamViewerQSLocal</string>
+	<key>Input</key>
+	<dict>
+		<key>NAME</key>
+		<string>TeamViewer QuickSupport</string>
+	</dict>
+	<key>MinimumVersion</key>
+	<string>0.4.0</string>
+	<key>Process</key>
+	<array>
+		<dict>
+			<key>Arguments</key>
+			<dict>
+				<key>check_version_path</key>
+				<string>/Applications/TeamViewerQS.app</string>
+				<key>pathname</key>
+				<string>%RECIPE_CACHE_DIR%/%NAME%</string>
+				<key>sourcelist</key>
+				<array>
+					<string>/Applications/%NAME%</string>
+				</array>
+			</dict>
+			<key>Processor</key>
+			<string>com.scriptingosx.processors/PathListCopier</string>
+		</dict>
+		<dict>
+			<key>Arguments</key>
+			<dict>
+				<key>input_path</key>
+				<string>%RECIPE_CACHE_DIR%/%NAME%/Applications/TeamViewerQS.app</string>
+				<key>requirement</key>
+				<string>anchor apple generic and identifier "com.teamviewer.TeamViewerQS" and (certificate leaf[field.1.2.840.113635.100.6.1.9] /* exists */ or certificate 1[field.1.2.840.113635.100.6.2.6] /* exists */ and certificate leaf[field.1.2.840.113635.100.6.1.13] /* exists */ and certificate leaf[subject.OU] = H7UGFBUGV6)</string>
+			</dict>
+			<key>Processor</key>
+			<string>CodeSignatureVerifier</string>
+		</dict>
+		<dict>
+			<key>Processor</key>
+			<string>EndOfCheckPhase</string>
+		</dict>
+		<dict>
+			<key>Arguments</key>
+			<dict>
+				<key>info_path</key>
+				<string>%pathname%/Applications/TeamViewerQS.app/Contents/Info.plist</string>
+				<key>plist_keys</key>
+				<dict>
+					<key>CFBundleIdentifier</key>
+					<string>bundleid</string>
+					<key>CFBundleShortVersionString</key>
+					<string>version</string>
+				</dict>
+			</dict>
+			<key>Processor</key>
+			<string>PlistReader</string>
+		</dict>
+			<dict>
+			<key>Arguments</key>
+				<key>Processor</key>
+			<string>PkgCreator</string>
+		</dict>
+	</array>
+</dict>
+</plist>
