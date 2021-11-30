@@ -20,6 +20,10 @@
 				<string>/Applications/TeamViewerQS.app</string>
 				<key>pathname</key>
 				<string>%RECIPE_CACHE_DIR%/%NAME%</string>
+				<key>sourcelist</key>
+				<array>
+					<string>/Applications/%NAME%</string>
+				</array>
 			</dict>
 			<key>Processor</key>
 			<string>com.scriptingosx.processors/PathListCopier</string>
