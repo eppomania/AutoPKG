@@ -19,14 +19,14 @@
 		<key>POLICY_TEMPLATE</key>
 		<string>PolicyTemplate.xml</string>
 		<key>SELF_SERVICE_DESCRIPTION</key>
-		<string>Enpass is an easy to use password-management app.</string>
+		<string>Password manager.</string>
 		<key>SELF_SERVICE_ICON</key>
 		<string>%NAME%.png</string>
 	</dict>
 	<key>MinimumVersion</key>
 	<string>1.0.0</string>
 	<key>ParentRecipe</key>
-	<string>com.github.gerardkok.download.enpass</string>
+	<string>com.github.EppoMania.AutoPKG.pkg.Enpass</string>
 	<key>Process</key>
 	<array>
 		<dict>
