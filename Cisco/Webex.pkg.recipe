@@ -7,7 +7,7 @@
 	<key>Input</key>
 	<dict>
 		<key>NAME</key>
-		<string>Webex</string>
+		<string>Cisco Webex Teams</string>
 	</dict>
 	<key>MinimumVersion</key>
 	<string>1.0.0</string>
