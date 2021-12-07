@@ -21,7 +21,7 @@
         <key>destination_path</key>
         <string>%RECIPE_CACHE_DIR%/unpack</string>
         <key>flat_pkg_path</key>
-        <string>%pathname%/</string>
+        <string>%pathname%/AWS VPN Client*.pkg</string>
         <key>purge_destination</key>
         <true/>
       </dict>
