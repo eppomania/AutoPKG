@@ -21,7 +21,7 @@
         <key>destination_path</key>
         <string>%RECIPE_CACHE_DIR%/unpack</string>
         <key>flat_pkg_path</key>
-        <string>%pathname%</string>
+        <string>%pathname%/AWS VPN Client.pkg</string>
         <key>purge_destination</key>
         <true/>
       </dict>
@@ -34,7 +34,7 @@
         <key>destination_path</key>
         <string>%RECIPE_CACHE_DIR%/payload/AWS VPN Client/AWS VPN Client.app</string>
         <key>pkg_payload_path</key>
-        <string>%RECIPE_CACHE_DIR%/unpack/tmp-app.pkg/payload</string>
+        <string>%RECIPE_CACHE_DIR%/payload</string>
         <key>purge_destination</key>
         <true/>
       </dict>
