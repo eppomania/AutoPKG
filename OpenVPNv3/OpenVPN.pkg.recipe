@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+  <key>Identifier</key>
+  <string>com.github.EppoMania.AutoPKG.pkg.OpenVPNv3</string>
+  <key>Input</key>
+  <dict>
+    <key>NAME</key>
+    <string>OpenVPN Connect</string>
+  </dict>
+  <key>MinimumVersion</key>
+  <string>1.0</string>
+  <key>ParentRecipe</key>
+  <string>com.github.dataJAR-recipes.download.OpenVPN Connect Client 3</string>
+  <key>Process</key>
+  <array>
+    <dict>
+      <key>Arguments</key>
+      <dict>
+        <key>destination_path</key>
+        <string>%RECIPE_CACHE_DIR%/unpack</string>
+        <key>flat_pkg_path</key>
+        <string>%pathname%/OpenVPN_Connect*.pkg</string>
+        <key>purge_destination</key>
+        <true/>
+      </dict>
+      <key>Processor</key>
+      <string>FlatPkgUnpacker</string>
+    </dict>
+    <dict>
+      <key>Arguments</key>
+      <dict>
+        <key>destination_path</key>
+        <string>%RECIPE_CACHE_DIR%/payload/OpenVPN Connect.app</string>
+        <key>pkg_payload_path</key>
+        <string>%RECIPE_CACHE_DIR%/unpack/tmp-app.pkg/payload</string>
+        <key>purge_destination</key>
+        <true/>
+      </dict>
+      <key>Processor</key>
+      <string>PkgPayloadUnpacker</string>
+    </dict>
+    <dict>
+      <key>Arguments</key>
+      <dict>
+        <key>pattern</key>
+        <string>%RECIPE_CACHE_DIR%/payload/OpenVPN Connect*.app</string>
+      </dict>
+      <key>Processor</key>
+      <string>FileFinder</string>
+    </dict>
+    <dict>
+      <key>Arguments</key>
+      <dict>
+        <key>info_path</key>
+        <string>%found_filename%/Contents/Info.plist</string>
+        <key>plist_keys</key>
+        <dict>
+          <key>CFBundleShortVersionString</key>
+          <string>version</string>
+        </dict>
+      </dict>
+      <key>Processor</key>
+      <string>PlistReader</string>
+    </dict>
+    <dict>
+      <key>Arguments</key>
+      <dict>
+        <key>pkg_path</key>
+        <string>%RECIPE_CACHE_DIR%/OpenVPN Connect-%version%.pkg</string>
+        <key>source_pkg</key>
+        <string>%pathname%/OpenVPN_Connect*.pkg</string>
+      </dict>
+      <key>Processor</key>
+      <string>PkgCopier</string>
+    </dict>
+  </array>
+</dict>
+</plist>
