@@ -71,7 +71,7 @@
 				<key>destination_path</key>
 				<string>%RECIPE_CACHE_DIR%/unpack</string>
 				<key>flat_pkg_path</key>
-				<string>%RECIPE_CACHE_DIR%/%NAME%/Pritunl.app</string>
+				<string>%RECIPE_CACHE_DIR%/%NAME%/Pritunl.pkg</string>
 				<key>purge_destination</key>
 				<true/>
 			</dict>
