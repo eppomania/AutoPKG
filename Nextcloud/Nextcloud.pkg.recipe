@@ -16,11 +16,6 @@
 	<key>Process</key>
 	<array>
 		<dict>
-			<key>Arguments</key>
-			<dict>
-				<key>app_path</key>
-				<string>%RECIPE_CACHE_DIR%/%NAME%/Nextcloud.app</string>
-			</dict>
 			<key>Processor</key>
 			<string>AppPkgCreator</string>
 		</dict>
