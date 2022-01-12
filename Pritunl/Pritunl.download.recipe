@@ -17,7 +17,7 @@
 			<key>Arguments</key>
 			<dict>
 				<key>asset_regex</key>
-				<string>.Pritunl.pkg.zip$</string>
+				<string>.*\l.pkg.zip$</string>
 				<key>github_repo</key>
 				<string>pritunl/pritunl-client-electron</string>
 			</dict>
