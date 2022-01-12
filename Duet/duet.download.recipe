@@ -17,7 +17,7 @@
 			<key>Arguments</key>
 			<dict>
 				<key>appcast_url</key>
-				<string>https://updates.duetdisplay.com/checkMacUpdates</string>
+				<string>https://updates.duetdisplay.com/latestMac</string>
 			</dict>
 			<key>Processor</key>
 			<string>SparkleUpdateInfoProvider</string>
