@@ -26,7 +26,7 @@
 	<key>MinimumVersion</key>
 	<string>1.0.0</string>
 	<key>ParentRecipe</key>
-	<string>com.github.dataJAR-recipes.pkg.SketchUp Pro 2021 EN</string>
+	<string>com.github.EppoMania.AutoPKG.pkg.SketchUpPro</string>
 	<key>Process</key>
 	<array>
 		<dict>
