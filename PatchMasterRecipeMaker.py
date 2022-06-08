@@ -55,7 +55,7 @@ except ImportError:
     from ruamel.yaml.nodes import MappingNode
 
 
-__all__ = ["PatchMaster"]
+__all__ = ["PatchMasterRecipeMaker"]
 
 
 class PatchMasterRecipeMaker(Processor):
