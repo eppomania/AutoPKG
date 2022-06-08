@@ -58,7 +58,7 @@ except ImportError:
 __all__ = ["PatchMasterRecipeMaker"]
 
 
-class JamfRecipeMaker(Processor):
+class PatchMasterRecipeMaker(Processor):
     """An AutoPkg processor which will create a new recipe containing the package.
     Designed to be run as a post-processor of a .pkg or .jss recipe."""
 
@@ -428,6 +428,6 @@ class JamfRecipeMaker(Processor):
 
 
 if __name__ == "__main__":
-    PROCESSOR = JamfRecipeMaker()
+    PROCESSOR = PatchMasterRecipeMaker()
     PROCESSOR.execute_shell()
     
