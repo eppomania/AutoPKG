@@ -19,7 +19,7 @@
 		<key>POLICY_TEMPLATE</key>
 		<string>PolicyTemplate.xml</string>
 		<key>SELF_SERVICE_DESCRIPTION</key>
-		<string>🖥 Control your display's brightness &amp; volume on your Mac as if it was a native Apple Display. Use Apple Keyboard keys or custom shortcuts. Shows the native macOS OSDs.</string>
+		<string>Control your display's brightness and volume on your Mac as if it was a native Apple Display. Use Apple Keyboard keys or custom shortcuts. Shows the native macOS OSDs.</string>
 		<key>SELF_SERVICE_ICON</key>
 		<string>%NAME%.png</string>
 	</dict>
